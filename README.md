@@ -21,7 +21,6 @@ Este projeto implementa um sistema de Gerenciamento de Tarefas (`Task Manager`) 
 
 * ✅ **Criação e Detalhamento de Tarefas:** Adiciona tarefas com Título, Descrição, Prazo e Prioridade.
 * 🚦 **Sistema de Prioridade e Status:** Utiliza classes `Enum` para prioridades (`baixa`, `média`, `alta`) e múltiplos status de acompanhamento (`pendente`, `concluída`, `atrasada`, etc.).
-* ⏰ **Verificação de Atraso:** A classe `Task` possui lógica para atualizar o status para 'atrasada' se o prazo for ultrapassado (e a tarefa não estiver concluída).
 * 💾 **Persistência de Dados (JSON):** As tarefas são automaticamente salvas no arquivo `tasks.json` ao adicionar, remover ou concluir, e carregadas na inicialização.
 * 🖼️ **Interface Gráfica (Tkinter):** Utiliza `tkinter` para a construção da interface, com `ttk.Treeview` para exibir a lista de tarefas de forma organizada.
 
