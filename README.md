@@ -36,11 +36,11 @@ Este projeto implementa um sistema de Gerenciamento de Tarefas (`Task Manager`) 
 
 ### Como Executar
 
-1.  Baixe ou clone o repositório, garantindo que o arquivo `to_do.py` esteja salvo em seu computador.
+1.  Baixe ou clone o repositório, garantindo que o arquivo `main.py` esteja salvo em seu computador.
 2.  Execute o script diretamente via terminal:
 
     ```bash
-    python to_do.py
+    python main.py
     ```
 
 3.  A janela do Gerenciador de Tarefas será exibida. O arquivo `tasks.json` (usado para salvar suas tarefas) será criado automaticamente após a primeira tarefa ser adicionada.
